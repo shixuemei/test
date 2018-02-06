@@ -1,7 +1,8 @@
 Pod::Spec.new do |s|
   s.name         = 'UnionOpenSource'
   s.version      = '0.0.1'
-  s.license      = { :type => 'Proprietary' }
+  s.license      = { :type => 'Proprietary',
+  }
   s.homepage     = 'http://v.ksyun.com/doc.html'
   s.authors      = { 'ksyun' => 'zengfanping@kingsoft.com' }
   s.summary      = 'UnionMobileStreaming for stream live video from ios mobile devices.'
@@ -9,7 +10,7 @@ Pod::Spec.new do |s|
   s.ios.library = 'z', 'iconv', 'stdc++.6', 'bz2'
   s.ios.deployment_target = '8.0'
   s.source = { 
-    :git => 'https://github.com/ksvc/UnionMobileStreaming.git',
+    :git => 'git@github.com:ksvc/UnionMobileStreaming_iOS.git',
     :tag => 'v'+s.version.to_s
   }
   s.requires_arc = true
