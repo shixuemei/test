@@ -1,9 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'UnionOpenSource'
   s.version      = '0.0.1'
-  s.license      = {
-:type => 'Proprietary',
-  }
+  s.license      = { :type => 'Proprietary' }
   s.homepage     = 'http://v.ksyun.com/doc.html'
   s.authors      = { 'ksyun' => 'zengfanping@kingsoft.com' }
   s.summary      = 'UnionMobileStreaming for stream live video from ios mobile devices.'
