@@ -3,16 +3,10 @@ Pod::Spec.new do |s|
   s.version      = '0.0.1'
   s.license      = {
 :type => 'Proprietary',
-:text => <<-LICENSE
-      Copyright 2015 kingsoft Ltd. All rights reserved.
-      LICENSE
   }
   s.homepage     = 'http://v.ksyun.com/doc.html'
   s.authors      = { 'ksyun' => 'zengfanping@kingsoft.com' }
   s.summary      = 'UnionMobileStreaming for stream live video from ios mobile devices.'
-  s.description  = <<-DESC
-    * publisher 
-  DESC
   s.platform     = :ios, '8.0'
   s.ios.library = 'z', 'iconv', 'stdc++.6', 'bz2'
   s.ios.deployment_target = '8.0'
